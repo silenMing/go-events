@@ -18,7 +18,7 @@ type Event struct{
 	Params    map[string] interface{}
 }
 
-<<<<<<< HEAD
+
 func CreateEvent(eventName string,Params map[string] interface{}) *Event {
 	return &Event{eventName: eventName,Params:Params}
 }
@@ -49,8 +49,3 @@ func (this *Dispatcher) AddEventListener (eventName string,callback *EventCallba
         EventChain = CreateEventChain()
         this.listeners[eventName] = eventChain
     }
-=======
-func Create() {
-	
->>>>>>> ff9b96ed0b29ca2a689c1b44e1754278bc4465da
-}
