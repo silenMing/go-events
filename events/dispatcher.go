@@ -49,3 +49,4 @@ func (this *Dispatcher) AddEventListener (eventName string,callback *EventCallba
         EventChain = CreateEventChain()
         this.listeners[eventName] = eventChain
     }
+}
