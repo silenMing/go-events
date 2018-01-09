@@ -1,0 +1,12 @@
+{
+    "Listen": [
+        {
+            "sync": {
+                "testSync": "sync"
+            },
+            "Async": {
+                "testAsync": "Async"
+            }
+        }
+    ]
+}
