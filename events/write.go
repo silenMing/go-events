@@ -31,23 +31,7 @@ func (self *readFile) Load (filename string, v interface{}) {
 	
 }
 	
-	
-	
-type ValueTestAtmp struct{
-	
-	StringValue string
-	
-	NumericalValue int
 
-	BoolValue bool
-	
-}
-
-type testdata struct {
-
-	ValueTestA ValueTestAtmp
-		
-}
 		
 		
 	
