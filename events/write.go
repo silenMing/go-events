@@ -18,21 +18,15 @@ func (self *readFile) Load (filename string, v interface{}) {
 	data, err := io.ReadFile(filename)
 	
 	if err != nil{
-	
-	return 
-	
+		return 
 	}
 	
 	datajson := []byte(data)
 	
-	
-	
 	err = json.Unmarshal(datajson, v)
 	
 	if err != nil{
-	
-	return
-	
+		return
 	}
 	
 }
