@@ -1,7 +1,7 @@
 package events
 
 import(
-	
+
 );
 
 type ValueTestAtmp struct{
@@ -17,3 +17,8 @@ type ValueTestAtmp struct{
 type testdata struct {
 	ValueTestA ValueTestAtmp	
 }
+
+func main(){
+	
+}
+
